@@ -2,17 +2,36 @@
 
 These bugs and suggestions are for *a9 firmware version 2.00*
 
+
+
 ## Bugs
 
 Most of the bugs in this sections are connected in one way or the other to the *"Recall Custom hold #"* function.
 
-### Statefull functions (Example: *"AEL Toggle"*) dropped when activating *"Recall Custom hold #"*
+
+### Stateful functions (Example: *"AEL Toggle"*) dropped when activating *"Recall Custom hold #"*
 
 #### To reproduce:
-1. 
+  1. Set *"AEL Toggle"* to a custom button (*C2*)
+  2. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
+  3. Recompose
+  4. Press *C2* (*"AEL Toggle"*) -- to lock exposure
+  5. Press *"AF-ON"* (*"Recall Custom hold #"*) -- **Exposure unlocked and changed**
+
+This seems to drop all settings that can be toggled including:
+  - *"AEL Toggle"*
+  - *"spot AEL Toggle"*
+  - "AF/MF Ctrl Toggle"
+
+
+#### Expected behavior:
+Togglable settings are reset only by toggling them off or by switching the camera off
+
 
 
 ### Activating "Recall Custom hold #" then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released.
+
+XXX make the title shorted/clearer...
 
 #### To reproduce:
 1.
@@ -27,10 +46,12 @@ Most of the bugs in this sections are connected in one way or the other to the *
 
 ## Critical suggestions
 
-This section describes missing features that either hinder camera use or make it really hard
+This section describes missing features that either hinder camera use or make it near impossible in common situations.
 
 
 ### Save all settings to card / Load all settings from card
+
+*Enable saving and loading full camera state to/from memory card.*
 
 When using multiple cameras it is critical to be able to predictably and repeatably save/load settings to each camera. Such cases include when using backup cameras, rented cameras or agency gear, having this feature would enable the photographer to load his setup into the camera and then for the agency or renting house to return the camera to it's defaults.
 
@@ -39,7 +60,9 @@ Currently saving/loading a subset of settings is possible but this still require
 
 ### Memory card overflow mode
 
-A common use case is to use two cards in two slots and when one fills up to write data the second. Currently when one card fills up it is neccessery to manually swithch to the other card.
+*Enable writing to next card automatically when current card is full.*
+
+A common use case is to use two cards in two slots and when one fills up to write data the second. Currently when one card fills up it is necessary to manually switch to the other card.
 
 
 ### Add face detect option to *"Recall Custom hold #"*
@@ -60,14 +83,18 @@ To avoid confusion this can also be done by adding an option like *"Extended shu
 
 Currently H, M and L cont. drive modes are set to different speeds in different shutter modes, e.g. L is sert to 5 fps in e-shutter and 2.5 fps in mechanical shutter, this makes changing shutter type require additionally resetting the drive mode to M and then back.
 
-Situations where it may be required to change the shutter type quickly may incude:
+Situations where it may be required to change the shutter type quickly may include:
 - screens in frame (some sports events, etc.)
-- specific lighting sutuations (oscilating lights, like LEDs and Sodium vapor lamps)
+- specific lighting situations (oscillating lights, like LEDs and Sodium vapor lamps)
 
-Adding an option to change the speeds (within limits) for each shutter mode would enable setting L and M to same values for such situations. This would also simplify setting speciffic fps values more apropriate for speific events independent of shutter type.
+Adding an option to change the speeds (within limits) for each shutter mode would enable setting L and M to same values for such situations. This would also simplify setting specific fps values more appropriate for specific events independent of shutter type.
 
 
 ### Option to overwrite drive modes and focus modes via custom settings (1,2,3)
+
+
+### AF tracking better hold point XXX
+
 
 
 ## Suggestions
@@ -79,3 +106,6 @@ This section describes non-critical features that would make the camera more con
 ### menu and playback buttons turn screen on if eye sensor not activated until shutter button half press (return to shooting)
 
 ### Touchpad mode (from a7III)
+
+
+
