@@ -58,8 +58,8 @@ Shutter button and *"Recall Custom hold #"* should be independent and not affect
 
 #### To reproduce:
   1. Set in *"Recall Custom hold #"*:
-    - *AF-ON* to On
-    - *Focus mode* to Continuous AF
+     1. *AF-ON* to On
+     1. *Focus mode* to Continuous AF
   2. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
   3. Set *"AF w/ shutter"* to Off
   4. Set AF mode to *AF-C*
