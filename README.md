@@ -35,8 +35,8 @@ XXX make the title shorted/clearer...
 
 #### To reproduce:
   1. Set in *"Recall Custom hold #"*:
-    1. *AF-ON* to On
-    1. *Focus mode* to Continuous AF
+     1. *AF-ON* to On
+     1. *Focus mode* to Continuous AF
   2. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
   3. Set *"AF w/ shutter"* to Off
   4. Set AF mode to *AF-C*
