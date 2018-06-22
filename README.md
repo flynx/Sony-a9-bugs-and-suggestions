@@ -34,8 +34,6 @@ Togglable settings are reset only by toggling them off or by switching the camer
 
 ### Activating *"Recall Custom hold #"* then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released.
 
-XXX make the title shorted/clearer...
-
 #### To reproduce (setup):
   1. Set in *"Recall Custom hold #"*:
      1. *AF-ON* to On
@@ -133,7 +131,7 @@ Adding an option to change the speeds (within limits) for each shutter mode woul
 
 
 
-### AF tracking better hold point XXX
+### AF tracking better hold point 
 
 
 
