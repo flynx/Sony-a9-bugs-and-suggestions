@@ -20,7 +20,7 @@ Most of the bugs in this sections are connected in one way or the other to the *
 
 This seems to drop all settings that can be toggled including:
   - *"AEL Toggle"*
-  - *"spot AEL Toggle"*
+  - *"Spot AEL Toggle"*
   - "AF/MF Ctrl Toggle"
 
 
@@ -29,18 +29,48 @@ Togglable settings are reset only by toggling them off or by switching the camer
 
 
 
-### Activating "Recall Custom hold #" then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released.
+### Activating *"Recall Custom hold #"* then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released.
 
 XXX make the title shorted/clearer...
 
 #### To reproduce:
-1.
+  1. Set in *"Recall Custom hold #"*:
+    - *AF-ON* to On
+    - *Focus mode* to Continuous AF
+  2. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
+  3. Set *"AF w/ shutter"* to Off
+  4. Set AF mode to *AF-C*
+  5. Press and hold *AF-ON* -- AF tracking starts
+  6. Half press and hold shutter button
+  7. Release *AF-ON* -- **AF tracking does not stop** while shutter button is pressed
+  8. Release shutter button -- **AF tracking stops**
+
+
+#### Expected behavior:
+*"Recall Custom hold #"* effect should be activated and stopped ONLY by 
+the assigned and pressed button.
+
+Shutter button and *"Recall Custom hold #"* should be independent and not affect each other.
+
 
 
 ### Half pressing the Shutter button will prevent any "Recall Custom hold #" from activating.
 
 #### To reproduce:
-1. 
+  1. Set in *"Recall Custom hold #"*:
+    - *AF-ON* to On
+    - *Focus mode* to Continuous AF
+  2. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
+  3. Set *"AF w/ shutter"* to Off
+  4. Set AF mode to *AF-C*
+  5. Half press and hold shutter button
+  6. Press and hold *AF-ON* -- **No effect** while the shutter button is pressed
+
+
+#### Expected behavior:
+Shutter button should have no effect on other button function, especially when half pressed.
+
+Shutter button and *"Recall Custom hold #"* should be independent and not affect each other.
 
 
 
@@ -91,6 +121,7 @@ Adding an option to change the speeds (within limits) for each shutter mode woul
 
 
 ### Option to overwrite drive modes and focus modes via custom settings (1,2,3)
+
 
 
 ### AF tracking better hold point XXX
