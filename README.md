@@ -3,10 +3,19 @@
 These bugs and suggestions are for *a9 firmware version 2.00*
 
 
+## Philosophy and motivation
+
+- I shoot lots of fast moving subjects and fast changing situations
+- I prefer to react to the situation -- thinking in this workflow makes things slow
+- I tend to separate actions and make them as independent as possible
+- I prefer the interface to be as simple as possible, i.e. to do one thing one has to perform only one action. 
+
+
 
 ## Bugs
 
 Most of the bugs in this sections are connected in one way or the other to the *"Recall Custom hold #"* function.
+
 
 
 ### Stateful functions (Example: *"AEL Toggle"*) dropped when activating *"Recall Custom hold #"*
@@ -29,6 +38,11 @@ This seems to drop all settings that can be toggled including:
 
 #### Expected behavior:
 Togglable settings are reset only by toggling them off or by switching the camera off
+
+
+#### Situations this affects
+This simply makes it pointless and impossible to use *"AEL Toggle"* with any of
+the *"Recall Custom hold #"* functions.
 
 
 
@@ -57,6 +71,25 @@ the assigned and pressed button.
 Shutter button and *"Recall Custom hold #"* should be independent and not affect each other.
 
 
+#### Situations this affects
+This makes focusing and recomposing in fast moving situations without fully releasing the shutter button impossible. Fully releasing the shutter button increases the reaction time and makes it harder to capture the exact moment.
+
+This affects situations when the subject is just out of the current focusing zone and it is faster and more practical to move the whole camera to the subject, focusing and moving back, than moving the focusing zone (requiring changing the grip and losing concentration).
+
+A good flow would be:
+  1. Set an approximate focusing zone and if possible roughly pre-focus in advance
+  2. Roughly compose and get ready (half-pressing the shutter button)
+  3. if focus is off, move the camera slightly and focus on the subject
+  4. compose and wait for the moment
+  5. repeat #3 and #4 as the situation changes
+
+This is usually done in one fluid movement, progressively composing and focusing closer and closer to the target, in a more and more accurate manner, always ready to take the shot if the situation changes. This is effective as capturing the perfect situation when it happens is more critical than getting perfect focus or prefect framing. If time permits this approach also helps achieve all (composition, focus, framing), if not I get a good composition with some compromises.
+
+This issue makes this approach very hard or even impossible as between steps #3 and #4 the camera will not stop tracking focus, shutter button still half-pressed in anticipation of a shot, and as a result will focus on the background/foreground when recomposing. To work around this it is needed to fully release the shutter button between steps #3 and #4 breaking the flow and concentration. 
+
+With this issue it is more practical to focus manually in such situations.
+
+
 
 ### Half pressing the Shutter button will prevent any "Recall Custom hold #" from activating.
 
@@ -78,6 +111,25 @@ Shutter button and *"Recall Custom hold #"* should be independent and not affect
 Shutter button should have no effect on other button function, especially when half pressed.
 
 Shutter button and *"Recall Custom hold #"* should be independent and not affect each other.
+
+
+#### Situations this affects
+This makes it impossible to refocus while the shutter button is half pressed.
+
+This is related to the above issue.
+
+Consider the same flow as above in a dynamic situation:
+  1. Set an approximate focusing zone and if possible roughly pre-focus in advance
+  2. Roughly compose and get ready (half-pressing the shutter button)
+  3. if focus is off, move the camera slightly and focus on the subject
+  4. compose and wait for the moment
+  5. repeat #3 and #4 as the situation changes
+
+This issue prevents starting focus tracking in step #3 without fully releasing the shutter button as when the shutter is half pressed *"Recall Custom hold #"* functions can not be activated.
+
+This breaks the flow and concentration hindering reaction to the changing situation.
+
+With this issue it is also more practical to focus manually in such situations.
 
 
 
