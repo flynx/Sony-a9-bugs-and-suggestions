@@ -8,11 +8,12 @@ These bugs and suggestions are for *a9 firmware version 2.00*
 - I shoot lots of fast moving subjects and fast changing situations
 - I prefer to react to the situation -- thinking in this workflow makes things slow
 - I tend to separate actions and make them as independent as possible
-- I prefer the interface to be as simple as possible, i.e. to do one thing one has to perform only one action. 
+- I prefer the interface to be as simple as possible, i.e. to do one thing I have to perform only one action, e.g. when waiting for the moment the index finger only shoots, thumb only starts/stops AF, etc. 
+- The target is for the camera to be an extension of what I do not requiring any mental attention during the shoot as all the attention is drawn to the situation at hand and any interruptions break the flow and concentration.
 
 
 
-## Bugs
+## Critical bugs
 
 Most of the bugs in this sections are connected in one way or the other to the *"Recall Custom hold #"* function.
 
