@@ -42,6 +42,7 @@ This seems to drop all settings that can be toggled including:
   - *"AEL Toggle"*
   - *"Spot AEL Toggle"*
   - *"AF/MF Ctrl Toggle"*
+  - ...
 
 
 #### Expected behavior:
@@ -271,7 +272,7 @@ This section describes non-critical features that would make the camera
 more convenient in every day use.
 
 
-### menu and playback buttons turn screen on if eye sensor not activated until shutter button half press (return to shooting)
+### Menu and playback buttons turn screen on if eye sensor not activated until shutter button half press (return to shooting)
 It is a common use case to quickly check an image or to set something in
 the menu while not shooting. Currently this would require to switch the
 camera from EVF to Screen and then back manually (set to a custom button).
@@ -287,7 +288,7 @@ second EVF blackout is large enough for me to miss the first shot in a
 fast changing situation.*
 
 
-### e-shutter sound volume
+### E-shutter sound volume
 There are situations where the current e-shutter sound is either too loud
 (concert hall during a piano concert for example) and situations when
 it is too quiet (a crowd or a loud event).
