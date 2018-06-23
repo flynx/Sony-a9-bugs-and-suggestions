@@ -1,6 +1,6 @@
 # Sony a9: Bugs and suggestions
 
-These bugs and suggestions are for *a9 firmware version 2.00*
+These bugs and suggestions are for *Sony a9 firmware version 2.00*
 
 
 ## Philosophy and motivation
@@ -45,12 +45,13 @@ This seems to drop all settings that can be toggled including:
 
 
 #### Expected behavior:
-Togglable settings are reset only by toggling them off or by switching the camera off
+Togglable settings are reset only by toggling them off or by switching
+the camera off
 
 
-#### Situations this affects
-This simply makes it pointless and impossible to use *"AEL Toggle"* with any of
-the *"Recall Custom hold #"* functions.
+#### Motivation and situations this affects:
+This simply makes it pointless and impossible to use *"AEL Toggle"*
+with any of the *"Recall Custom hold #"* functions.
 
 
 
@@ -80,7 +81,7 @@ Shutter button and *"Recall Custom hold #"* should be independent and
 not affect each other.
 
 
-#### Situations this affects
+#### Motivation and situations this affects:
 This makes focusing and recomposing in fast moving situations without
 fully releasing the shutter button impossible. Fully releasing the shutter
 button increases the reaction time and makes it harder to capture the
@@ -141,7 +142,7 @@ Shutter button and *"Recall Custom hold #"* should be independent and
 not affect each other.
 
 
-#### Situations this affects
+#### Motivation and situations this affects:
 This makes it impossible to refocus while the shutter button is half pressed.
 
 This is related to the above issue.
@@ -222,7 +223,6 @@ feature.
 
 
 ### Option to manually change H, M and L speeds for each shutter mode
-
 Currently H, M and L cont. drive modes are set to different speeds in
 different shutter modes, e.g. L is sert to 5 fps in e-shutter and 2.5
 fps in mechanical shutter, this makes changing shutter type require
@@ -231,7 +231,8 @@ additionally resetting the drive mode to M and then back.
 Situations where it may be required to change the shutter type quickly
 may include:
 - screens in frame (some sports events, etc.)
-- specific lighting situations (oscillating lights, like LEDs and Sodium vapor lamps)
+- specific lighting situations (oscillating lights, like LEDs and Sodium 
+vapor lamps)
 
 Adding an option to change the speeds (within limits) for each shutter
 mode would enable setting L and M to same values for such situations. This
@@ -239,11 +240,26 @@ would also simplify setting specific fps values more appropriate for
 specific events independent of shutter type.
 
 
-### Option to overwrite drive modes and focus modes via custom settings (1,2,3)
+### Option to overwrite drive modes and focus modes via custom settings (1/2/3)
+It is not possible to overwrite the left dial state in custom modes, this
+makes it impossible to setup the camera for specific tasks that require
+specifc frame rates and focusing modes in a way that would enable the
+user to switch modes using just one control (Mode dial). Currently one
+needs to both change the Mode dial to a custom mode and also change the
+drive mode and focus mode separately.
 
+This can either be done either by adding an option to save/load the dial
+states per custom mode.
 
 
 ### AF tracking better hold point 
+Currently AF tracking is very erratic unless a face or a very distinct
+subject is tracked even if the focus is locked on and camera is static.
+
+It is hard to elaborate here without speculating but it seems that
+unless the AF system can isolate a specific object it does not account
+for camera movement and scene depth at all. This does not appear to be 
+the case on older Alpha models.
 
 
 
@@ -254,11 +270,48 @@ specific events independent of shutter type.
 This section describes non-critical features that would make the camera
 more convenient in every day use.
 
-### e-shutter sound volume
 
 ### menu and playback buttons turn screen on if eye sensor not activated until shutter button half press (return to shooting)
+It is a common use case to quickly check an image or to set something in
+the menu while not shooting. Currently this would require to switch the
+camera from EVF to Screen and then back manually (set to a custom button).
+
+Adding the option in EVF mode to turn on the screen if the Menu or Play
+buttons are pressed and the Eye sensor / EVF is not active and switch
+back to EVF mode as soon as the shutter button is half pressed would
+make the above used case very convenient.
+
+*NOTE: I'm not using the eye sensor to switch between the EVF and the
+Screen because it is not fast enough for what I do, the 1/3 to 1/2
+second EVF blackout is large enough for me to miss the first shot in a
+fast changing situation.*
+
+
+### e-shutter sound volume
+There are situations where the current e-shutter sound is either too loud
+(concert hall during a piano concert for example) and situations when
+it is too quiet (a crowd or a loud event).
+
+It would be very useful to add an option to change the volume of the
+e-shutter sound.
+
+*NOTE: for future cameras, it would be very good to add a tactile feed
+back for shutter, for example silently vibrate the shutter button the
+moment the shutter is opened and the moment it is closed (for long
+exposures), this would eliminate the need for e-shutter sound and make
+the operation very intuitive. This can be accomplished via a piezo
+element built into the shutter button itself, which would also isolate
+any vibrations transferred to the camera body.*
+
+
+### Option to change the mode (P/A/S/M) from within one of the custom modes.
+Currently this would require to fully reset the camera and overwrite
+the current custom mode. It would be more convenient to be able to to
+this via the *"Shoot mode"* option in the *"Function Menu St."*.
+
 
 ### Touchpad mode (from a7III)
+Add the touchscreen touchpad mode as implemented in *a7III*.
 
 
 ---
