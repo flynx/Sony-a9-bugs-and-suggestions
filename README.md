@@ -34,7 +34,7 @@ Most of the bugs in this sections are connected in one way or the other to the *
 This seems to drop all settings that can be toggled including:
   - *"AEL Toggle"*
   - *"Spot AEL Toggle"*
-  - "AF/MF Ctrl Toggle"
+  - *"AF/MF Ctrl Toggle"*
 
 
 #### Expected behavior:
@@ -198,5 +198,14 @@ This section describes non-critical features that would make the camera more con
 
 ### Touchpad mode (from a7III)
 
+
+---
+
+## Contacts:
+
+  Alex A. Naanou
+  alex.nanou@gmail.com
+  http://flic.kr/f_lynx/
+  https://docs.google.com/document/d/1ejk_vb9hYwQZ6DR1PzW0T7TLMBD_OQ4oHRrc_NeUPdA/edit?usp=sharing
 
 
