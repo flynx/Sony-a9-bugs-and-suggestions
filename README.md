@@ -12,6 +12,7 @@ These bugs and suggestions are for *a9 firmware version 2.00*
 - The target is for the camera to be an extension of what I do not requiring any mental attention during the shoot as all the attention is drawn to the situation at hand and any interruptions break the flow and concentration.
 
 
+---
 
 ## Critical bugs
 
@@ -134,6 +135,8 @@ With this issue it is also more practical to focus manually in such situations.
 
 
 
+---
+
 ## Critical suggestions
 
 This section describes missing features that either hinder camera use or make it near impossible in common situations.
@@ -187,6 +190,8 @@ Adding an option to change the speeds (within limits) for each shutter mode woul
 ### AF tracking better hold point 
 
 
+
+---
 
 ## Suggestions
 
