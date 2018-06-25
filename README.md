@@ -325,4 +325,4 @@ Add the touchscreen touchpad mode as implemented in *a7III*.
   https://www.facebook.com/alex.naanou  
   https://docs.google.com/document/d/1ejk_vb9hYwQZ6DR1PzW0T7TLMBD_OQ4oHRrc_NeUPdA/edit?usp=sharing  
 
-
+<!-- vim:set sw=4 ts=4 spell : -->
