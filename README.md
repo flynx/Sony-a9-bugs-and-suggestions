@@ -56,7 +56,7 @@ with any of the *"Recall Custom hold #"* functions.
 
 
 
-### Activating *"Recall Custom hold #"* then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released.
+### Activating *"Recall Custom hold #"* then half pressing the Shutter button will hold the "Recall Custom hold #" function even if the original button is released, until the Shutter button is fully released
 
 #### To reproduce (setup):
   1. Set in *"Recall Custom hold #"*:
@@ -109,17 +109,17 @@ this approach also helps achieve all (composition, focus, framing),
 if not I get a good composition with some compromises.
 
 This issue makes this approach very hard or even impossible as between
-steps #3 and #4 the camera will not stop tracking focus, shutter button
-still half-pressed in anticipation of a shot, and as a result will focus
-on the background/foreground when recomposing. To work around this it
-is needed to fully release the shutter button between steps #3 and #4
-breaking the flow and concentration.
+steps #3 and #4 the camera will not stop tracking focus, as the shutter
+button still half-pressed in anticipation of the shot, and as a result
+the camera will focus on the background/foreground when recomposing. To
+work around this it is needed to fully release the shutter button between
+steps #3 and #4 breaking the flow and concentration.
 
 With this issue it is more practical to focus manually in such situations.
 
 
 
-### Half pressing the Shutter button will prevent any "Recall Custom hold #" from activating.
+### Half pressing the Shutter button will prevent any "Recall Custom hold #" from activating
 
 #### To reproduce (setup):
   1. Set in *"Recall Custom hold #"*:
@@ -146,7 +146,7 @@ not affect each other.
 #### Motivation and situations this affects:
 This makes it impossible to refocus while the shutter button is half pressed.
 
-This is related to the above issue.
+This is related to the previous issue.
 
 Consider the same flow as above in a dynamic situation:
   1. Set an approximate focusing zone and if possible roughly pre-focus in advance
@@ -182,12 +182,13 @@ or make it near impossible in common situations.
 When using multiple cameras it is critical to be able to predictably and
 repeatably save/load settings to each camera. Such cases include when
 using backup cameras, rented cameras or agency gear, having this feature
-would enable the photographer to load his setup into the camera and then
-for the agency or renting house to return the camera to its defaults.
+would enable the photographer to load his setup into the camera in one
+simple step and then for the agency or renting house to return the camera
+to its specific defaults.
 
 Currently saving/loading a subset of settings is possible but this still
-requires to additionally setup features that are not stored, like IPTC
-data, control setup and other settings.
+requires to additionally setup features that are not staved, like IPTC
+data, control/button setup and other settings.
 
 
 ### Memory card overflow mode
@@ -199,16 +200,18 @@ up to write data the second. Currently when one card fills up it is
 necessary to manually switch to the other card.
 
 
-### Add face detect option to *"Recall Custom hold #"*
+### Add *Face detect* option to *"Recall Custom hold #"*
 
-In some situations face detect prevents from focusing on an area close to
-a face, adding this feature would make dealing with such situations very
-simple by activating a *"Recall Custom hold #"* set to a button. Currently
-dealing with this requires going into the menu and disabling face detect
-manually and enabling it after the shot is made.
+In some situations face detect prevents from focusing on an area close
+to a face (Example: tow faces partially covering each other and focus
+must be on the farther face), adding this feature would make dealing
+with such situations very simple by activating a *"Recall Custom hold #"*
+set to a button (*AF-ON* with *Face detect* disabled). Currently dealing
+with this requires going into the menu and disabling face detect manually
+and enabling it after the shot is made.
 
 
-### *"Auto-shutter"* to change from e-shutter to mechanical when setting shutter speed longer than 1/8sec manually
+### *"Auto-shutter"* to change from e-shutter to mechanical when setting shutter speed longer than 1/8sec
 
 Currently to set a shutter speed longer than 1/8 sec requires to change
 to M or S mode, then changing the shutter to mechanical and then setting
@@ -216,7 +219,8 @@ the correct speed. A way around this is to set M or S to one of the
 1/2/3 custom modes and change shutter speed accordingly.
 
 Enabling switching shutter mode with the selected shutter speed would
-make this seamless, by simply changing the shutter speed.
+make this seamless, by simply changing the shutter speed manually (or
+via P/A modes).
 
 To avoid confusion this can also be done by adding an option like
 *"Extended shutter range in auto-shutter"* to enable or disable this
@@ -225,18 +229,21 @@ feature.
 
 ### Option to manually change H, M and L speeds for each shutter mode
 Currently H, M and L cont. drive modes are set to different speeds in
-different shutter modes, e.g. L is set to 5 fps in e-shutter and 2.5
-fps in mechanical shutter, this makes changing shutter type require
-additionally resetting the drive mode to M and then back.
+different shutter modes, e.g. L is set to 5 fps in e-shutter and 2.5 fps
+in mechanical shutter, effectively one setting that has two different
+behaviors, this makes changing shutter type require additionally resetting
+the drive mode to M and then back, if the situation requires a specific
+frame rate.
 
 Situations where it may be required to change the shutter type quickly
 may include:
-- screens in frame (some sports events, etc.)
-- specific lighting situations (oscillating lights, like LEDs and Sodium 
-vapor lamps)
+- Screens in frame (some sports events, etc.)
+- Specific lighting situations (oscillating lights, like some PWM LEDs 
+and Sodium vapor lamps)
+- Using flash
 
-Adding an option to change the speeds (within limits) for each shutter
-mode would enable setting L and M to same values for such situations. This
+Adding an option to change the speeds (within obvious limits) for each shutter
+type would enable setting L and M to same values for such situations. This
 would also simplify setting specific fps values more appropriate for
 specific events independent of shutter type.
 
@@ -250,7 +257,7 @@ needs to both change the Mode dial to a custom mode and also change the
 drive mode and focus mode separately.
 
 This can either be done either by adding an option to save/load the dial
-states per custom mode.
+states per custom mode or as is done for *"Recall Custom hold #"*.
 
 
 ### AF tracking better hold point 
