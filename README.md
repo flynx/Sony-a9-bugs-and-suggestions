@@ -6,7 +6,7 @@ These bugs and suggestions are for *Sony a9 firmware version 2.00*
 ## Philosophy and motivation
 
 - I shoot lots of fast moving subjects and fast changing situations
-- I react to the situation – thinking in this workflow makes things slow
+- I react to the situation — thinking in this workflow makes things slow
 - I separate actions and make them as independent as possible
 - I prefer the interface to be as simple as possible, i.e. to do one thing
 I have to perform only one action, e.g. when waiting for the moment the
@@ -34,9 +34,9 @@ to the *"Recall Custom hold #"* function.
 
 
 #### To reproduce (operation):
-  1. Press *C2* (*"AEL Toggle"*) – to lock exposure
+  1. Press *C2* (*"AEL Toggle"*) — to lock exposure
   2. Recompose
-  3. Press *"AF-ON"* (*"Recall Custom hold #"*) – **Exposure unlocked and changed**
+  3. Press *"AF-ON"* (*"Recall Custom hold #"*) — **Exposure unlocked and changed**
 
 This seems to drop all settings that can be toggled including:
   - *"AEL Toggle"*
@@ -68,10 +68,10 @@ with any of the *"Recall Custom hold #"* functions.
 
 
 #### To reproduce (operation):
-  1. Press and hold *AF-ON* – AF tracking starts
+  1. Press and hold *AF-ON* — AF tracking starts
   2. Half press and hold shutter button
-  3. Release *AF-ON* – **AF tracking does not stop** while shutter button is pressed
-  4. Release shutter button – **AF tracking stops**
+  3. Release *AF-ON* — **AF tracking does not stop** while shutter button is pressed
+  4. Release shutter button — **AF tracking stops**
 
 
 #### Expected behavior:
@@ -132,7 +132,7 @@ With this issue it is more practical to focus manually in such situations.
 
 #### To reproduce (operation):
   1. Half press and hold shutter button
-  2. Press and hold *AF-ON* – **No effect** while the shutter button is pressed
+  2. Press and hold *AF-ON* — **No effect** while the shutter button is pressed
 
 
 #### Expected behavior:
