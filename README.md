@@ -183,7 +183,7 @@ When using multiple cameras it is critical to be able to predictably and
 repeatably save/load settings to each camera. Such cases include when
 using backup cameras, rented cameras or agency gear, having this feature
 would enable the photographer to load his setup into the camera and then
-for the agency or renting house to return the camera to it's defaults.
+for the agency or renting house to return the camera to its defaults.
 
 Currently saving/loading a subset of settings is possible but this still
 requires to additionally setup features that are not stored, like IPTC
@@ -216,7 +216,7 @@ the correct speed. A way around this is to set M or S to one of the
 1/2/3 custom modes and change shutter speed accordingly.
 
 Enabling switching shutter mode with the selected shutter speed would
-make this seamless, by simply chaning the shutter speed.
+make this seamless, by simply changing the shutter speed.
 
 To avoid confusion this can also be done by adding an option like
 *"Extended shutter range in auto-shutter"* to enable or disable this
@@ -225,7 +225,7 @@ feature.
 
 ### Option to manually change H, M and L speeds for each shutter mode
 Currently H, M and L cont. drive modes are set to different speeds in
-different shutter modes, e.g. L is sert to 5 fps in e-shutter and 2.5
+different shutter modes, e.g. L is set to 5 fps in e-shutter and 2.5
 fps in mechanical shutter, this makes changing shutter type require
 additionally resetting the drive mode to M and then back.
 
@@ -244,7 +244,7 @@ specific events independent of shutter type.
 ### Option to overwrite drive modes and focus modes via custom settings (1/2/3)
 It is not possible to overwrite the left dial state in custom modes, this
 makes it impossible to setup the camera for specific tasks that require
-specifc frame rates and focusing modes in a way that would enable the
+specific frame rates and focusing modes in a way that would enable the
 user to switch modes using just one control (Mode dial). Currently one
 needs to both change the Mode dial to a custom mode and also change the
 drive mode and focus mode separately.
@@ -269,7 +269,7 @@ the case on older Alpha models.
 ## Suggestions
 
 This section describes non-critical features that would make the camera
-more convenient in every day use.
+more convenient in everyday use.
 
 
 ### Menu and playback buttons turn screen on if eye sensor not activated until shutter button half press (return to shooting)
@@ -296,13 +296,13 @@ it is too quiet (a crowd or a loud event).
 It would be very useful to add an option to change the volume of the
 e-shutter sound.
 
-*NOTE: for future cameras, it would be very good to add a tactile feed
-back for shutter, for example silently vibrate the shutter button the
-moment the shutter is opened and the moment it is closed (for long
-exposures), this would eliminate the need for e-shutter sound and make
-the operation very intuitive. This can be accomplished via a piezo
-element built into the shutter button itself, which would also isolate
-any vibrations transferred to the camera body.*
+*NOTE: for future cameras, it would be very good to add a tactile feedback
+for shutter, for example silently vibrate the shutter button the moment
+the shutter is opened and the moment it is closed (for long exposures),
+this would eliminate the need for e-shutter sound and make the operation
+very intuitive. This can be accomplished via a piezo element built
+into the shutter button itself, which would also isolate any vibrations
+transferred to the camera body.*
 
 
 ### Option to change the mode (P/A/S/M) from within one of the custom modes.
