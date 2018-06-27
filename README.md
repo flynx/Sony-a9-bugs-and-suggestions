@@ -1,7 +1,7 @@
 # Sony a9: Bugs and suggestions
 
 These bugs and suggestions are for *Sony a9 firmware version 2.00 and
-version 3.0*.
+version 3.00*.
 
 
 ## Philosophy and motivation
