@@ -167,6 +167,24 @@ With this issue it is also more practical to focus manually in such
 situations.
 
 
+### Screen briefly turns on when turning camera on in EVF mode (v3.00 only)
+
+#### To reproduce (setup):
+  1. Set *"FINDER/MONITOR"* to *Monitor (Manual)* via Menu
+  2. Set custom button to *"Finder/Monitor sel."* (*Down Button*)
+  3. Press *Down button* to switch to EVF mode.
+
+#### To reproduce (operation):
+  1. Turn camera off (for a few seconds)
+  2. Turn camera on -- **screen turns on momentarily**
+
+#### Expected behavior:
+In EVF mode the screen is always off.
+
+*NOTE: when *"FINDER/MONITOR"* is set to *Viewfinder (Manual)* via Menu
+the screen does not blink on startup regardless of how it was switched 
+afterwards.*
+
 
 ---
 
