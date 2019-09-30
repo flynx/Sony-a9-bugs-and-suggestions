@@ -1,7 +1,7 @@
 # Sony a9: Bugs and suggestions
 
-These bugs and suggestions are for *Sony a9 firmware version 2.00 and
-version 3.00*.
+These bugs and suggestions are for *Sony a9 firmware version 2.00 to
+version 6.00*.
 
 
 ## Philosophy and motivation
@@ -25,6 +25,25 @@ and concentration.
 Most of the bugs in this sections are connected in one way or the other
 to the *"Recall Custom hold #"* function.
 
+
+
+### Focus peaking stops working after activating *"Recall Custom hold #"* with AF-ON set
+
+#### To reproduce (setup):
+  1. Set *Peaking Display* to *On*
+  2. Set focus mode to *MF*
+  3. Set *"Recall Custom hold #"* to a custom button (*AF-ON*)
+
+
+#### To reproduce (operation):
+  1. Press *"AF-ON"* (*"Recall Custom hold #"*) — **Focus peaking disappears**
+
+Focus peaking display disappears untill either:
+  1. Camera power is turned off then on,
+  2. focus mode is switched to AF-C / AF-S and back to MF,
+  3. Menu is displayed for more than several seconds
+
+Turning *Peaking Display* off then back on has no effect.
 
 
 ### Stateful functions (Example: *"AEL Toggle"*) dropped when activating *"Recall Custom hold #"*
@@ -184,6 +203,7 @@ In EVF mode the screen is always off.
 *NOTE: when *"FINDER/MONITOR"* is set to *Viewfinder (Manual)* via Menu
 the screen does not blink on startup regardless of how it was switched 
 afterwards.*
+
 
 
 ---
