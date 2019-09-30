@@ -230,7 +230,7 @@ requires to additionally setup features that are not staved, like IPTC
 data, control/button setup and other settings.
 
 
-### Memory card overflow mode
+### Memory card overflow mode (IMPLEMENTED in v5)
 
 *Enable writing to next card automatically when current card is full.*
 
@@ -239,7 +239,7 @@ up to write data the second. Currently when one card fills up it is
 necessary to manually switch to the other card.
 
 
-### Add *Face detect* option to *"Recall Custom hold #"*
+### Add *Face detect* option to *"Recall Custom hold #"* (IMPLEMENTED in v5)
 
 In some situations face detect prevents from focusing on an area close
 to a face (Example: tow faces partially covering each other and focus
@@ -299,7 +299,7 @@ This can either be done either by adding an option to save/load the dial
 states per custom mode or as is done for *"Recall Custom hold #"*.
 
 
-### AF tracking better hold point 
+### AF tracking better hold point (IMPLEMENTED in v5)
 Currently AF tracking is very erratic unless a face or a very distinct
 subject is tracked even if the focus is locked on and camera is static.
 
@@ -357,7 +357,7 @@ the current custom mode. It would be more convenient to be able to to
 this via the *"Shoot mode"* option in the *"Function Menu St."*.
 
 
-### Touchpad mode (from a7III)
+### Touchpad mode (from a7III) (IMPREMENTED in v5)
 Add the touchscreen touchpad mode as implemented in *a7III*.
 
 
